@@ -56,6 +56,13 @@ class RegisterSkillTests(unittest.TestCase):
         catalog = yaml.safe_load(self.catalog_path.read_text(encoding="utf-8"))
         self.assertEqual(catalog["skills"], [self.entry])
 
+    def test_register_skill_accepts_other_category(self) -> None:
+        """其他类 Skill 应使用与开发类相同的登记流程。"""
+        register_skill(self.catalog_path, self.root, self.other_entry)
+
+        catalog = yaml.safe_load(self.catalog_path.read_text(encoding="utf-8"))
+        self.assertEqual(catalog["skills"], [self.other_entry])
+
     def test_register_skill_rejects_duplicate_name(self) -> None:
         """同名 Skill 即使路径不同也不得重复登记。"""
         register_skill(self.catalog_path, self.root, self.entry)

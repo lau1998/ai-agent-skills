@@ -17,7 +17,7 @@ Create repository Skills through the installed `skill-creator` workflow, place t
 6. Check both `catalog.yaml` and the target directory before creating files. Never overwrite an existing Skill.
 7. Invoke the installed `skill-creator` Skill and use its `scripts/init_skill.py` generator. Set the output path to `skills/<category>` and request only the resource directories the Skill actually needs.
 8. Replace every generated placeholder. Keep `SKILL.md` concise, put detailed material in one-level `references/` files, and do not add auxiliary documentation inside the Skill.
-9. Add document comments to every function or method. Add short comments around important logic that is not self-explanatory.
+9. Add documentation comments to every function or method. Add short comments around important logic that is not self-explanatory.
 10. Run every bundled script on a representative case. Then run the installed `skill-creator/scripts/quick_validate.py` against the completed Skill directory.
 11. Register a new Skill only after all checks pass. Run `scripts/register_skill.py` as shown below from the repository root.
 12. Report the created path, selected category, validation commands, and results.
