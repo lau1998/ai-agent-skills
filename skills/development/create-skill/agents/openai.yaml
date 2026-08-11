@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Skill"
+  short_description: "创建、分类并登记项目中的 AI Agent Skills"
+  default_prompt: "Use $create-skill to create and register a new AI Agent Skill in this repository."

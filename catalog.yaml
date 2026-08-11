@@ -1,3 +1,6 @@
 version: 1
-skills: []
-
+skills:
+- name: create-skill
+  category: development
+  path: skills/development/create-skill
+  description: 创建、分类、登记并校验项目中的 AI Agent Skills
