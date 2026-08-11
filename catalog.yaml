@@ -4,3 +4,7 @@ skills:
   category: development
   path: skills/development/create-skill
   description: 创建、分类、登记并校验项目中的 AI Agent Skills
+- name: photo-restoration
+  category: other
+  path: skills/other/photo-restoration
+  description: 忠实修复老照片并按需提供现代增强
