@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Restoration"
+  short_description: "Preservation-first restoration for old photographs"
+  default_prompt: "Use $photo-restoration to restore this old photo while preserving identity and composition."
