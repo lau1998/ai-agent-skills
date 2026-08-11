@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import contextlib
 import io
+import stat
 import sys
 import tempfile
 import unittest
@@ -55,6 +56,15 @@ class RegisterSkillTests(unittest.TestCase):
 
         catalog = yaml.safe_load(self.catalog_path.read_text(encoding="utf-8"))
         self.assertEqual(catalog["skills"], [self.entry])
+
+    def test_register_skill_preserves_catalog_permissions(self) -> None:
+        """原子替换后应保留原目录索引的文件权限。"""
+        original_mode = stat.S_IMODE(self.catalog_path.stat().st_mode)
+
+        register_skill(self.catalog_path, self.root, self.entry)
+
+        updated_mode = stat.S_IMODE(self.catalog_path.stat().st_mode)
+        self.assertEqual(updated_mode, original_mode)
 
     def test_register_skill_accepts_other_category(self) -> None:
         """其他类 Skill 应使用与开发类相同的登记流程。"""

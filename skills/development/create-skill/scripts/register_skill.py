@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import os
 import re
+import stat
 import sys
 import tempfile
 from pathlib import Path
@@ -116,6 +117,7 @@ def _write_catalog_atomically(catalog_path: Path, catalog: dict[str, Any]) -> No
     """
     temporary_path: Path | None = None
     try:
+        catalog_mode = stat.S_IMODE(catalog_path.stat().st_mode)
         catalog_path.parent.mkdir(parents=True, exist_ok=True)
         with tempfile.NamedTemporaryFile(
             mode="w",
@@ -135,7 +137,8 @@ def _write_catalog_atomically(catalog_path: Path, catalog: dict[str, Any]) -> No
             temporary_file.flush()
             os.fsync(temporary_file.fileno())
 
-        # 同一文件系统中的原子替换可避免中断时留下半写入索引。
+        # 保留原权限，再用同一文件系统的原子替换避免半写入索引。
+        os.chmod(temporary_path, catalog_mode)
         os.replace(temporary_path, catalog_path)
         temporary_path = None
     except OSError as error:
