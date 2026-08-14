@@ -8,3 +8,7 @@ skills:
   category: other
   path: skills/other/photo-restoration
   description: 忠实修复老照片并按需提供现代增强
+- name: create-travel-guide
+  category: other
+  path: skills/other/create-travel-guide
+  description: 充分理解旅行需求后联网核验并生成准确的旅游攻略
