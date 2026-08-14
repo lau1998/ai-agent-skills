@@ -23,7 +23,7 @@ Score only applicable atomic fields that are explicit or validly delegated. Reso
 
 Use exactly these atomic fields within each group. Count each semicolon-separated item as one atom:
 
-- **Basics, 10 base or conditional atoms:** origin; destination; intermediate stops or explicit none; exact dates or duration; date flexibility; trip purpose; and, when the itinerary crosses an international or immigration border, entry identity basis; country of residence when relevant; travel-document expiry; current visa or entry-authorization status. Resolve `entry identity basis` with traveler citizenship or with both travel-document issuing jurisdiction and document type. Never collect the document number. Treat `not applicable`, `not yet obtained`, `pending`, or `approved` as explicit authorization statuses; `not yet obtained` permits requirements research but does not establish entry eligibility.
+- **Basics, 10 base or conditional atoms:** origin; destination; intermediate stops or explicit none; exact dates or duration; date flexibility; trip purpose; and, when the itinerary crosses an international or immigration border, entry identity basis; country of residence when relevant; travel-document expiry; current visa or entry-authorization status. Resolve `entry identity basis` only when the travel-document type and either traveler citizenship or travel-document issuing jurisdiction are known. Never collect the document number. Treat `not applicable`, `not yet obtained`, `pending`, or `approved` as explicit authorization statuses; `not yet obtained` permits requirements research but does not establish entry eligibility.
 - **Travelers, 6 base or conditional atoms:** total count; composition; child details when children travel; senior details when seniors travel; mobility and accessibility facts; pregnancy or care facts when applicable.
 - **Transport and self-drive, 11 base or conditional atoms:** inbound main transport; outbound main transport; local main transport; self-drive applicability; and, only when self-drive applies, vehicle type; driver count; license suitability; daily driving maximum; loop preference; mountain-road tolerance; night-driving limit.
 - **Budget and accommodation, 9 atoms:** budget ceiling or range; currency; total or per-person basis; long-distance transport inclusion; lodging type; nightly range; room arrangement; preferred area; hotel-change tolerance.
@@ -49,7 +49,7 @@ Include only unanswered lines and preserve the seven group headings and numberin
    - Destination and intermediate stops:
    - Exact departure and return dates, or duration and date flexibility:
    - Main purpose of the trip:
-   - For international or border-crossing travel, traveler citizenship or travel-document issuing jurisdiction and document type for each traveler whose details differ (never provide a document number):
+   - For international or border-crossing travel, travel-document type plus traveler citizenship or issuing jurisdiction for each traveler whose details differ (never provide a document number):
    - Country of residence when relevant to entry or transit rules:
    - Travel-document expiry date for each traveler whose details differ (never provide a document number):
    - Current visa or entry-authorization status: not applicable, not yet obtained, pending, or approved:
@@ -96,7 +96,7 @@ Use this field-labeled structure. Omit no critical field and distinguish confirm
 - Destinations and route scope:
 - Dates and duration:
 - Travelers and composition:
-- Citizenship or travel-document issuing jurisdiction and type:
+- Travel-document type and citizenship or issuing jurisdiction:
 - Country of residence when relevant:
 - Travel-document expiry:
 - Visa or entry-authorization status:

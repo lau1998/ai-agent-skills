@@ -12,11 +12,11 @@ Prefer sources in this order:
 
 Use one conclusive, current official source when it directly answers the question. For ordinary facts without a conclusive official answer, confirm the fact with at least two independent sources. Independence requires different publishers or primary data, not two pages repeating the same claim.
 
-Treat entry, visa, legal, health, permit, and public-safety requirements as consequential. Leave each consequential fact unresolved unless the responsible government, consular, legal, health, permit, or public-safety authority, or an explicitly official equivalent, verifies it for the applicable traveler and date. Use secondary sources only to cross-check or locate the authority; two secondary sources never replace it.
+Treat entry, visa, legal, health, permit, public-safety, and emergency-contact requirements as consequential. Leave each consequential fact unresolved unless the responsible government, consular, legal, health, permit, public-safety, diplomatic, or emergency-service authority, or an explicitly official equivalent, verifies it for the applicable traveler, destination, and date. Use secondary sources only to cross-check or locate the authority; two secondary sources never replace it.
 
 ## Scope Narrow Queries
 
-For a single-fact query, skip the full trip intake but collect the minimum qualifiers needed for that fact before research. Ask for citizenship or travel-document issuing jurisdiction and type, document expiry, residence when relevant, travel purpose, and exact date for entry or visa questions; never request a passport or document number. Ask for exact date, endpoints, direction, traveler category, party size, and occupancy or fare conditions when relevant to transport, accommodation, or price. Ask no unrelated itinerary questions.
+For a single-fact query, skip the full trip intake but collect the minimum qualifiers needed for that fact before research. Ask for travel-document type plus citizenship or issuing jurisdiction, document expiry, residence when relevant, travel purpose, and exact date for entry or visa questions; never request a passport or document number. Ask for exact date, endpoints, direction, traveler category, party size, and occupancy or fare conditions when relevant to transport, accommodation, or price. Ask no unrelated itinerary questions.
 
 ## Verify Against Exact Travel Dates
 
@@ -28,6 +28,7 @@ Check every material dynamic fact for the travel date, destination, traveler, an
 - Flights, rail, ferries, transit, transfers, and driving feasibility.
 - Road closures, tolls, parking, fuel, charging, daylight, mountain conditions, and driver fatigue.
 - Age, health, equipment, operator, and legal restrictions for high-risk activities.
+- Destination-specific emergency telephone numbers, applicable embassy or consulate contacts, and official local help channels.
 - Accommodation, transport, admission, and other prices that materially affect the budget.
 
 Do not use a route, schedule, opening time, restriction, or price from a nearby date as if it applies to the trip date.

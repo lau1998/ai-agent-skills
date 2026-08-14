@@ -13,7 +13,7 @@ Use Markdown as the durable default and include:
 3. Daily itinerary with transport, buffers, meals, rests, reservations, safety, and fallbacks.
 4. Accommodation-area and transport guidance.
 5. Categorized budget with `free`, `core paid`, and `optional paid` items.
-6. Preparation, packing, weather, health, safety, etiquette, and emergency guidance.
+6. Preparation, packing, weather, health, safety, etiquette, and emergency guidance, including destination-verified emergency telephone numbers, applicable embassy or consulate information, and official local help channels.
 7. Full sources with publishers, direct links, applicable dates, and verification dates.
 
 Keep source traceability in the deliverable or a clearly attached appendix. User pressure cannot remove it.
