@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Guide Planner"
+  short_description: "Plan verified trips after understanding traveler needs"
+  default_prompt: "Use $create-travel-guide to understand my trip and create an accurate, verified travel guide."
