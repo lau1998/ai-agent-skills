@@ -12,3 +12,7 @@ skills:
   category: other
   path: skills/other/create-travel-guide
   description: 充分理解旅行需求后联网核验并生成准确的旅游攻略
+- name: contextual-commit
+  category: development
+  path: skills/development/contextual-commit
+  description: 为 Git 提交记录结构化的意图、决策、约束与经验

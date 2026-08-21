@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contextual Commit"
+  short_description: "使用结构化上下文记录 Git 提交的意图、决策与约束信息"
+  default_prompt: "Use $contextual-commit to create a contextual Git commit for the current changes."
