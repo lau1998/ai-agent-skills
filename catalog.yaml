@@ -16,3 +16,7 @@ skills:
   category: development
   path: skills/development/contextual-commit
   description: 为 Git 提交记录结构化的意图、决策、约束与经验
+- name: git-workflow
+  category: development
+  path: skills/development/git-workflow
+  description: 按项目规则规范 Git 分支、提交、合并、冲突处理与发布流程
