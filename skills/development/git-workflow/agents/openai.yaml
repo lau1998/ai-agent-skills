@@ -1,4 +1,4 @@
 interface:
   display_name: "Git 工作流规范"
-  short_description: "规范 Git 分支、提交、合并、冲突解决与发布流程"
+  short_description: "规范 Git 分支、提交、合并、冲突解决与上下文提交"
   default_prompt: "Use $git-workflow to follow this repository Git workflow rules for the current task."
